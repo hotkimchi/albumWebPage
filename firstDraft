@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Info on Tool's Aenima</title>
+  </head>
+  <body>
+    <h1>AEnima</h1>
+    <h2>Tool</h2>
+    <h3>September 17, 1996</h3>
+    <p>
+      AEnima is Tool's second full-lengthed album released in 1996. The album was certified triple platinum by RIAA in 2003.
+      The album was dedicated to stand-up comedian Bill Hicks who died 2 years prior to it's release. Tool wanted to raise awarnes
+      about Bill Hick's material and ideas.
+    </p>
+    <br/>
+    <h2>Band Members</h2>
+    <ul style = "list-style-type : none;">
+      <li>Maynard Adam Jones - Vocalist</li>
+      <li>Danny Carey - Drummer</li>
+      <li>Adam Jones - Guitarist</li>
+      <li>Justin Chancellor - Bassist</li>
+    </ul>
+  </body>
+</html>
+    

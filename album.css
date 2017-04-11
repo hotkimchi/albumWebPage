@@ -1,0 +1,11 @@
+table {
+    background-color: paleturquoise;  
+}
+#trackInfo {
+    font-family: cursive;
+    font-size: 15em;
+}
+#bgImage {
+    background-image: url("https://s5.postimg.org/51xw4ujx3/Aenima.jpg");
+    height: 18em
+}

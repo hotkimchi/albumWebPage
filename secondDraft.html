@@ -6,13 +6,24 @@
     <style>
       a {
         text-decoration: none;
+        color: darkred;
       }
-      a: hover {
+      a:hover {
         text-decoration: underline;
-        color: blue;
+        background-color:greenyellow;
+        color:black;
       }
       li {
         font-style: italic;
+      }
+      td {
+        font-style: italic;
+      }
+      tbody tr:nth-child(even) {
+        background-color:lemonchiffon;
+      }
+      tbody tr:nth-child(odd) {
+        background-color:violet;
       }
       </style>
   </head>
@@ -23,7 +34,7 @@
     </div>
     <div align="center">
       <h1 style="color: darkred; font-family: monospace">AEnima</h1>
-      <h2><a href= "https://en.wikipedia.org/wiki/Tool_(band)" style="color: darkred;">Tool</a></h2>
+      <h2><a href= "https://en.wikipedia.org/wiki/Tool_(band)">Tool</a></h2>
       <h3 style="color: darkred;">September 17, 1996</h3>
     </div>
     <br>
@@ -37,86 +48,90 @@
     </ul>
     <table border = "1" width = "100%">
       <caption id="trackInfo">Tracks</caption>
-      <tr bgcolor = "grey">
-        <th>Track #</th>
-        <th>Track Title</th>
-        <th>Track Length</th>
-      </tr>
-      <tr>
-        <td>1</td>
-        <td>Stinkfist</td>
-        <td>5:11</td>
-      </tr>
-      <tr>
-        <td>2</td>
-        <td>Eulogy</td>
-        <td>8:28</td>
-      </tr>
-      <tr>
-        <td>3</td>
-        <td>H</td>
-        <td>6:07</td>
-      </tr>
-      <tr>
-        <td>4</td>
-        <td>Useful Idiot</td>
-        <td>0:38</td>
-      </tr>
-      <tr>
-        <td>5</td>
-        <td>Forty Six and Two</td>
-        <td>6:04</td>
-      </tr>
-      <tr>
-        <td>6</td>
-        <td>Message to Harry Manback</td>
-        <td>1:53</td>
-      </tr>
-      <tr>
-        <td>7</td>
-        <td>Hooker with a Penis</td>
-        <td>4:33</td>
-      </tr>
-      <tr>
-        <td>8</td>
-        <td>Intermission</td>
-        <td>0:56</td>
-      </tr>
-      <tr>
-        <td>9</td>
-        <td>Jimmy</td>
-        <td>5:24</td>
-      </tr>
-      <tr>
-        <td>10</td>
-        <td>Die Eier Von Satan</td>
-        <td>2:17</td>
-      </tr>
-      <tr>
-        <td>11</td>
-        <td>Pushit</td>
-        <td>9:55</td>
-      </tr>
-      <tr>
-        <td>12</td>
-        <td>Cesaro Summability</td>
-        <td>1:26</td>
-      </tr>
-      <tr>
-        <td>13</td>
-        <td>AEnima</td>
-        <td>6:39</td>
-      </tr>
-      <tr>
-        <td>14</td>
-        <td>(-) Ions</td>
-        <td>4:00</td>
-      </tr>
-      <tr>
-        <td>15</td>
-        <td>Third Eye</td>
-        <td>13:47</td>
-      </tr>
+      <thead>
+        <tr bgcolor = "grey">
+          <th>Track #</th>
+          <th>Track Title</th>
+          <th>Track Length</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>1</td>
+          <td>Stinkfist</td>
+          <td>5:11</td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>Eulogy</td>
+          <td>8:28</td>
+        </tr>
+        <tr>
+          <td>3</td>
+          <td>H</td>
+          <td>6:07</td>
+        </tr>
+        <tr>
+          <td>4</td>
+          <td>Useful Idiot</td>
+          <td>0:38</td>
+        </tr>
+        <tr>
+          <td>5</td>
+          <td>Forty Six and Two</td>
+          <td>6:04</td>
+        </tr>
+        <tr>
+          <td>6</td>
+          <td>Message to Harry Manback</td>
+          <td>1:53</td>
+        </tr>
+        <tr>
+          <td>7</td>
+          <td>Hooker with a Penis</td>
+          <td>4:33</td>
+        </tr>
+        <tr>
+          <td>8</td>
+          <td>Intermission</td>
+          <td>0:56</td>
+        </tr>
+        <tr>
+          <td>9</td>
+          <td>Jimmy</td>
+          <td>5:24</td>
+        </tr>
+        <tr>
+          <td>10</td>
+          <td>Die Eier Von Satan</td>
+          <td>2:17</td>
+        </tr>
+        <tr>
+          <td>11</td>
+          <td>Pushit</td>
+          <td>9:55</td>
+        </tr>
+        <tr>
+          <td>12</td>
+          <td>Cesaro Summability</td>
+          <td>1:26</td>
+        </tr>
+        <tr>
+          <td>13</td>
+          <td>AEnima</td>
+          <td>6:39</td>
+        </tr>
+        <tr>
+          <td>14</td>
+          <td>(-) Ions</td>
+          <td>4:00</td>
+        </tr>
+        <tr>
+          <td>15</td>
+          <td>Third Eye</td>
+          <td>13:47</td>
+        </tr>
+      </tbody>
     </table>
   </body>
 </html>
